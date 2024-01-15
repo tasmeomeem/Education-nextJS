@@ -12,10 +12,10 @@ const Category = () => {
         <div className="container mx-auto px-10">
              <div className="text-center">
                 <h1 className="text-blue-500 pt-10 font-bold text-xl">COURSE CATEGORIES</h1>
-                <h1 className="text-blue text-4xl font-bold">Popular Topics To Learn</h1>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold pt-5 px-">Popular Topics<br/> To Learn</h1>
             </div>
             <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-3 gap-10 pt-10">
-                <div className="card w-96 bg-blue-200 shadow-x5">
+                <div className="card bg-base-100 shadow-x5 hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -26,7 +26,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -37,7 +37,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card  bg-base-100 shadow-xl hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -48,7 +48,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -59,7 +59,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card  bg-base-100 shadow-xl hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -70,7 +70,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl hover:bg-blue-500">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -81,7 +81,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -92,7 +92,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">
@@ -103,7 +103,7 @@ const Category = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body bg-slate-100 border rounded-md">
                         
                         <div className="flex gap-4">

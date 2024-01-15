@@ -7,9 +7,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 const Footer = () => {
     return (
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 pt-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 mt-10">
             <div className="">
-                <div className="p-10">
+                <div className="p-5">
                     <h1 className="text-3xl font-bold">EduHome</h1>
                     <h1>It is a long established fact that a reader will be distracted<br/> by the readable content of a page when looking at its layout. <br/>The point of using Lorem Ipsum.</h1>
                 </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="p-5">
                 <h1 className="text-3xl font-bold pt-10">Explore </h1>
                 <div>
                      <div className="flex gap-2">
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="p-5">
                 <h1 className="text-3xl font-bold pt-10">Useful Links </h1>
                 <div>
                      <div className="flex gap-2">
@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="p-5">
                 <h1 className="text-3xl font-bold pt-10">Contact Information </h1>
                 <div>
                      <div className="flex gap-2">

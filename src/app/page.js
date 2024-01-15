@@ -11,7 +11,7 @@ import Footer from "@/components/layout/Footer";
 const homePage = () => {
   
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-white">
       <div className="bg-[url('/assets/images/hero-bg.jpg')]">
         <Nav/>
         <Hero/>

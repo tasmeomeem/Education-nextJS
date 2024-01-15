@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Workshop = () => {
     return (
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 lg:pl-40 md:pl-20 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 lg:pl-40 md:pl-20 mt-10">
             <div className="text-center lg:pt-20">
                 <h1 className="text-white text-2xl pt-10 lg:pl-26 ">FREE WORKSHOP</h1>
                  <h1 className="text-white  text-4xl font-bold">

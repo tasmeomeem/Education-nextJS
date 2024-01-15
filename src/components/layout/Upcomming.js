@@ -4,12 +4,13 @@ import { FaArrowRight } from "react-icons/fa6";
 const Upcomming = () => {
     return (
         <div>
-            <div className="text-center pt-10">
+            <div className="text-center pt-10 ">
                 <h1 className="text-blue-500 font-bold text-lg">
-                UPCOMMING EVENT</h1>
-                <h1 className="text-5xl font-bold pt-5">Let’s Join Our Community</h1>
+                    UPCOMMING EVENT
+                </h1>
+                <h1 className="text-5xl font-bold pt-5 px-2">Let’s Join Our Community</h1>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10">
+            <div className="px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10">
                 <div className="card w-full sm:w-96 bg-base-100 shadow-xl">
                 <div className="badge badge-primary top-0.8 left-0 rounded-l-lg">04 Dec 2022</div>
                 <Image
@@ -18,7 +19,7 @@ const Upcomming = () => {
                     width={500}
                     height={500}
                 />
-                <div className="card w-full sm:w-96 bg-base-100 shadow-xl pl-5 pt-8">
+                <div className="card w-full bg-base-100 shadow-xl pl-5 pt-8">
                     <h2 className="card-title ">
                             <div className=" flex gap-2">
                                 <div><FaLocationDot /></div>
@@ -35,7 +36,7 @@ const Upcomming = () => {
                 </div>
                 </div>
 
-                <div className="card w-full sm:w-96 bg-base-100 shadow-xl">
+                <div className="card w-full  bg-base-100 shadow-xl">
                 <div className="badge badge-primary top-0.8 left-0 rounded-l-lg">30th Oct 2022</div>
                     <Image
                         src="/assets/images/event-2.jpg"
@@ -60,7 +61,7 @@ const Upcomming = () => {
                     </div>
                 </div>
 
-                <div className="card w-full sm:w-96 bg-base-100 shadow-xl">
+                <div className="card w-full  bg-base-100 shadow-xl">
                     <div className="badge badge-primary top-0.8 left-0 rounded-l-lg">18th Sep 2022</div>
                     <Image
                         src="/assets/images/event-3.jpg"
